@@ -57,7 +57,7 @@ while True:
 
     cv2.imshow('Original',frame1)
 
-    if cv2.waitKey(120) & 0xff==ord('q'):
+    if cv2.waitKey(120) & 0xff==ord('R'):
         break
 
 cv2.destroyAllWindows()
